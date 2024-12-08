@@ -77,7 +77,9 @@
             print("Pilihan tidak valid. Silakan coba lagi.")
 # penjelasan code program
 1. import dan definisi kelas
-                       def __init__(self):
+
+                     def __init__(self):
                               self.daftar_mahasiswa = []
+
 • class Mahasiswa: Mendefinisikan kelas Mahasiswa yang akan digunakan untuk mengelola data mahasiswa.
 • init: Merupakan metode konstruktor yang dipanggil saat objek dari kelas ini dibuat.
