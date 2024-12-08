@@ -167,3 +167,11 @@
   Berdasarkan pilihan yang dimasukkan, program akan memanggil metode yang sesuai dari kelas Mahasiswa.
 # Diagram Class
 ![image](https://github.com/user-attachments/assets/4ade2f77-cd11-48d9-b921-7b5e1a7b446d)
+# Penjelasan Diagram class
+# 1. Kelas Mahasiswa
+ Deskripsi : Kelas ini adalah inti dari manajemen data mahasiswa, bertanggung jawab untuk mengelola seluruh operasi pada data mahasiswa.
+
+ Atribut 
+       • daftar_mahasiswa (private list):
+         • Menyimpan kumpulan data mahasiswa
+         • Bersifat privat untuk melindungi integritas data
