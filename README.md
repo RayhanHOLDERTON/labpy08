@@ -81,13 +81,15 @@
             def __init__(self):
                   self.daftar_mahasiswa = []
 
- • class Mahasiswa: Mendefinisikan kelas Mahasiswa yang akan digunakan untuk mengelola data mahasiswa.
- • init: Merupakan metode konstruktor yang dipanggil saat objek dari kelas ini dibuat.
+ class Mahasiswa: Mendefinisikan kelas Mahasiswa yang akan digunakan
+ untuk mengelola data mahasiswa.
+ init: Merupakan metode konstruktor yang dipanggil saat objek dari 
+ kelas ini dibuat.
 
 2. Method Tambahan
 
                   self.daftar_mahasiswa.append({'nama': nama, 'nim': nim, 'nilai': nilai})
             print(f"Data mahasiswa {nama} (NIM: {nim}) berhasil ditambahkan.")
-• tambah(self, nama, nim, nilai): Method ini digunakan untuk menambahkan data mahasiswa baru ke dalam daftar.
-• self.daftar_mahasiswa.append(...): Menambahkan dictionary yang berisi nama, nim, dan nilai mahasiswa ke dalam list daftar_mahasiswa.
-• print(...): Menampilkan pesan konfirmasi bahwa data mahasiswa telah berhasil ditambahkan.
+tambah(self, nama, nim, nilai): Method ini digunakan untuk menambahkan data mahasiswa baru ke dalam daftar.
+self.daftar_mahasiswa.append(...): Menambahkan dictionary yang berisi nama, nim, dan nilai mahasiswa ke dalam list daftar_mahasiswa.
+ print(...): Menampilkan pesan konfirmasi bahwa data mahasiswa telah berhasil ditambahkan.
