@@ -174,10 +174,8 @@
  Atribut
  
        • daftar_mahasiswa (private list):
-       
-          • Menyimpan kumpulan data mahasiswa
-         
-          • Bersifat privat untuk melindungi integritas data
+          Menyimpan kumpulan data mahasiswa
+          Bersifat privat untuk melindungi integritas data
 
 Method
 
@@ -211,4 +209,34 @@ Method
             Mencari mahasiswa berdasarkan nama
             Memperbarui NIM dan nilai
             Memberikan konfirmasi perubahan
-# 2. 
+# 2. Kelas data mahasiswa
+   Deskripsi: Kelas ini merupakan struktur data untuk menyimpan informasi individual setiap mahasiswa.
+
+Atribut 
+
+             • nama (string): Nama lengkap mahasiswa
+             • nim (integer): Nomor Induk Mahasiswa
+             • nilai (integer): Nilai akademik mahasiswa
+# 3. Kelas main
+    Deskripsi: Kelas yang bertanggung jawab untuk menjalankan program dan berinteraksi dengan pengguna.
+
+Method
+
+           • main():
+                Fungsi utama untuk menjalankan program
+                Membuat instance kelas Mahasiswa
+                Memulai loop utama program
+           • tampilkan_menu():
+                 Menampilkan pilihan menu kepada pengguna
+                 Memudahkan interaksi dan navigasi program
+           • pilih_menu():
+                 Memproses pilihan menu yang dipilih pengguna
+                 Memanggil metode yang sesuai dari kelas Mahasiswa 
+# Hubungan Antara Kelas
+         Komposisi (Mahasiswa -- 0.. DataMahasiswa)
+            • Kelas Mahasiswa mengandung beberapa objek DataMahasiswa
+            • Hubungan komposisi berarti objek DataMahasiswa tidak dapat eksis tanpa Mahasiswa
+            • Satu objek Mahasiswa dapat memiliki 0 atau lebih objek DataMahasiswa
+         Asosiasi (Main ..> Mahasiswa)
+            • Kelas Main menggunakan (uses) kelas Mahasiswa
+            • Main bergantung pada fungsionalitas Mahasiswa untuk menjalankan program
