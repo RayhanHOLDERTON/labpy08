@@ -29,7 +29,7 @@ def ubah(self, nama, nim_baru, nilai_baru):
             return
     print(f"Data mahasiswa {nama} tidak ditemukan.")
 
-#contohpengguna
+#contoh pengguna
 if name == "main": mhs = Mahasiswa()
 
 while True:
