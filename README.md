@@ -2,6 +2,7 @@
      nama : patur rahman hakim
      nim : 312410271
      kelas : TI.24.A2
+     pertemuan ke 12
 # Flowchart
 ![image](https://github.com/user-attachments/assets/0cce3733-af1f-4c9b-905c-3a3f153b565b)
 # code program
@@ -74,3 +75,9 @@
     
         else:
             print("Pilihan tidak valid. Silakan coba lagi.")
+# penjelasan code program
+1. import dan definisi kelas
+           def __init__(self):
+        self.daftar_mahasiswa = []
+• class Mahasiswa: Mendefinisikan kelas Mahasiswa yang akan digunakan untuk mengelola data mahasiswa.
+• init: Merupakan metode konstruktor yang dipanggil saat objek dari kelas ini dibuat.
