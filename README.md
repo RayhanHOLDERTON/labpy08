@@ -78,8 +78,15 @@
 # penjelasan code program
 1. import dan definisi kelas
 
-                     def __init__(self):
-                              self.daftar_mahasiswa = []
+            def __init__(self):
+                  self.daftar_mahasiswa = []
 
 • class Mahasiswa: Mendefinisikan kelas Mahasiswa yang akan digunakan untuk mengelola data mahasiswa.
+
 • init: Merupakan metode konstruktor yang dipanggil saat objek dari kelas ini dibuat.
+
+2. Method Tambahan
+
+                  self.daftar_mahasiswa.append({'nama': nama, 'nim': nim, 'nilai': nilai})
+            print(f"Data mahasiswa {nama} (NIM: {nim}) berhasil ditambahkan.")
+
