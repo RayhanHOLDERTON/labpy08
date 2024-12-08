@@ -169,9 +169,46 @@
 ![image](https://github.com/user-attachments/assets/4ade2f77-cd11-48d9-b921-7b5e1a7b446d)
 # Penjelasan Diagram class
 # 1. Kelas Mahasiswa
- Deskripsi : Kelas ini adalah inti dari manajemen data mahasiswa, bertanggung jawab untuk mengelola seluruh operasi pada data mahasiswa.
+ Deskripsi  :Kelas ini adalah inti dari manajemen data mahasiswa, bertanggung jawab untuk mengelola seluruh operasi pada data mahasiswa.
 
- Atribut 
+ Atribut
+ 
        • daftar_mahasiswa (private list):
-         • Menyimpan kumpulan data mahasiswa
-         • Bersifat privat untuk melindungi integritas data
+       
+          • Menyimpan kumpulan data mahasiswa
+         
+          • Bersifat privat untuk melindungi integritas data
+
+Method
+
+        • -__init__():
+
+             Konstruktor kelas
+             Menginisialisasi list kosong untuk menyimpan data mahasiswa
+             
+        • tambah(nama, nim, nilai):
+
+             Menambahkan mahasiswa baru ke dalam daftar
+             Menerima parameter nama, NIM, dan nilai
+             Membuat entri baru dalam daftar mahasiswa
+       
+        • tampilkan():
+
+            Menampilkan seluruh data mahasiswa yang tersimpan
+            Menangani kasus daftar kosong
+            Menampilkan informasi setiap mahasiswa termasuk nama, NIM, dan nilai
+       
+        •  hapus(nama):
+
+            Menghapus data mahasiswa berdasarkan nama
+            Mencari mahasiswa dengan nama tertentu
+            Menghapus entri jika ditemukan
+            Memberikan konfirmasi atau pesan kesalahan
+            
+        • ubah(nama, nim_baru, nilai_baru):
+
+            Mengubah data mahasiswa yang sudah ada
+            Mencari mahasiswa berdasarkan nama
+            Memperbarui NIM dan nilai
+            Memberikan konfirmasi perubahan
+# 2. 
