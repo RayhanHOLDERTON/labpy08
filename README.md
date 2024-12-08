@@ -76,7 +76,7 @@
         else:
             print("Pilihan tidak valid. Silakan coba lagi.")
 # penjelasan code program
-1. import dan definisi kelas
+# 1. import dan definisi kelas
 
             def __init__(self):
                   self.daftar_mahasiswa = []
@@ -84,7 +84,7 @@
 
   • init: Merupakan metode konstruktor yang dipanggil saat objek dari kelas ini dibuat.
 
-2. Method Tambahan
+# 2. Method Tambahan
 
                   self.daftar_mahasiswa.append({'nama': nama, 'nim': nim, 'nilai': nilai})
             print(f"Data mahasiswa {nama} (NIM: {nim}) berhasil ditambahkan.")
@@ -93,8 +93,7 @@
   • self.daftar_mahasiswa.append(...): Menambahkan dictionary yang berisi nama, nim, dan nilai mahasiswa ke dalamlist daftar_mahasiswa.
 
   • print(...): Menampilkan pesan konfirmasi bahwa data mahasiswa telah berhasil ditambahkan.
-
-3. Method Tampilkan
+# 3. Method Tampilkan
 
                   if not self.daftar_mahasiswa:
           print("Daftar mahasiswa kosong.")
@@ -109,8 +108,7 @@
   • enumerate(...): Menggunakan fungsi enumerate untuk mendapatkan indeks dan data mahasiswa saat iterasi. Indeks dimulai dari 1.
 
   • print(...): Menampilkan informasi mahasiswa dalam format yang terstruktur.
-
-4. Method menghapus
+# 4. Method menghapus
 
               for mahasiswa in self.daftar_mahasiswa:
        if mahasiswa['nama'] == nama:
@@ -127,8 +125,7 @@
   • self.daftar_mahasiswa.remove(mahasiswa): Menghapus mahasiswa dari daftar jika ditemukan.
 
   • print(...): Menampilkan pesan konfirmasi atau pesan bahwa mahasiswa tidak ditemukan.
-
-5. Method Mengubah
+# 5. Method Mengubah
 
                      for mahasiswa in self.daftar_mahasiswa:
          if mahasiswa['nama'] == nama:
@@ -144,8 +141,7 @@
   • mahasiswa['nim'] = nim_baru dan mahasiswa['nilai'] = nilai_baru: Mengubah NIM dan nilai mahasiswa yang ditemukan.
 
   • print(...): Menampilkan pesan konfirmasi atau pesan bahwa mahasiswa tidak ditemukan.
-
-6. Menu interaktif
+# 6. Menu interaktif
 
                   mhs = Mahasiswa()
 
@@ -170,3 +166,4 @@
   Menggunakan input() untuk mendapatkan pilihan dari pengguna dan data siswa yang ingin ditambahkan, diubah, atau dihapus.
   Berdasarkan pilihan yang dimasukkan, program akan memanggil metode yang sesuai dari kelas Mahasiswa.
 # Diagram Class
+![image](https://github.com/user-attachments/assets/4ade2f77-cd11-48d9-b921-7b5e1a7b446d)
